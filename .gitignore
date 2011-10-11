@@ -1,0 +1,11 @@
+log/*.log
+*.log
+/tmp/
+*.swp
+*~
+.project
+.DS_Store
+cache/*
+config/ProjectConfiguration.class.php
+config/propel.ini
+config/databases.yml
