@@ -1,0 +1,76 @@
+header .logo {
+    font-size:300%;
+    font-weight:bold;
+    text-shadow: #6374AB -1px -1px 1px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.round {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius:10px;
+}
+
+.shadow {
+    -moz-box-shadow: 2px 2px 2px #eee;
+    -webkit-box-shadow: 2px 2px 2px #eee;
+    box-shadow: 2px 2px 2px #eee;
+}
+
+header {
+    margin:1em;
+}
+
+header nav ul {
+    list-style-type :none;
+    margin          :0px;
+    padding         :0px;
+    background-color:#ccc;
+    padding-top:.4em;
+}
+
+    header nav ul li {
+        display    :inline;
+        background-color:#ccc;
+        line-height:2em;
+        padding:0px;
+        margin:0px;
+        margin-right:1em;
+    }
+
+        header nav ul li.selected {
+            background-color:#999;
+            padding:1em;
+        }
+        
+        header nav ul li a {
+            font-weight:bold;
+            color:#fff;
+            margin:0px;
+            padding:0px;
+        }
+
+.container {
+        margin:0px 1em 1em 1em;
+}
+
+    .container .content-box {
+        background              :#eee;
+        -moz-border-radius      :10px;
+        -webkit-border-radius   :10px;
+        border-radius           :10px;
+        padding                 :1em;
+        border                  :1px solid #ddd;
+    }
+
+        .container .right-column h1 {
+            font-size:120%;
+            font-weight:bold;
+        }
